@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/estilosCabecera.css">
+    <link rel="stylesheet" href="./Css/estilosBanner.css">
+    <link rel="stylesheet" href="./Css/estilosNosotros.css">
+    <link rel="stylesheet" href="./Css/estilosCursos.css">
+    <link rel="stylesheet" href="./Css/estilosNoticias.css">
+    <link rel="stylesheet" href="./Css/estilosPreguntas.css">
+    <link rel="stylesheet" href="./Css/estilosFooter.css">
+    <link rel="stylesheet" href="./Css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SMART_MONEY_SCHOOL</title>
+    <link rel="icon" href="./image/logo_principal_dorado.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href=""><img src="./image/logo_principal_dorado.png" alt="" class="logo"></a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar_btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav_menu">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li class="bord"><a href="#nosotros">Nosotros</a></li>
+                <li class="bord"><a href="#cursos">Aprende a invertir</a></li>
+                <li class="bord"><a href="#noticias">Noticias</a></li>
+                <li class="bord"><a href="#contacto">Contacto</a></li>
+                <li class="bord"><a href="#preguntas">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section  class="container_banner" id="inicio">
+            <div class="titulo_chip">
+                <p >Curso de Criptomonedas</p>
+            </div>
+            <div class="container_img_des">
+                <div class="container_banner_descripcion">
+                    <h1>Aprende a invertir como un <span>Inversor Inteligente</span></h1>
+                    <p>Entiende como se mueve el dinero inteligente en los distintos mercados financieros.</p>
+                    <div class="container_botones">
+                        <form action="https://wa.me/message/NCZZK5TQCDPIB1" method="POST">
+                            <input type="email" placeholder="Ingresa tu e-mail" class="correo" id="email_cliente" required>
+                            <input type="button" value="Quiero" class="btn_quiero" onclick="goWasaap()">
+                        </form>
+                    </div>
+                </div>
+                <div class="container_imagen">
+                    <img src="./image/imagen_banner.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container_nosotros" id="nosotros">
+            <div class="nosotros">
+                <div class="nosotros_descripcion">
+                    <h2>Quienes Somos</h2>
+                    <p><b>Smart Money School</b> está formado por un grupo de profesionales altamente capacitados que te acompañarán durante el <b>desarrollo de los conocimientos</b> y el manejo de las herramientas necesarias para desenvolverte con precisión en los <b>mercados financieros</b>. <b>La prioridad</b> de SMS es la experiencia de nuestra comunidad, entendiendo la importancia y el miedo inicial que generan las inversiones.
+                    </p>
+                </div>
+                <div class="nosotros_imagen">
+                    <img src="./image/nosotros.png" alt="">
+                </div>
+            </div>
+            <div class="escuela">
+                <div class="escuela_descripcion">
+                    <h2>Escuela</h2>
+                    <p>
+                        <span><b>Estudia como se comporta el Smart Money!</b></span>
+                        Entender como se comportan los mercados financieros es dificil, es por eso que nuestros cursos son dinamicos con <b>clases en vivo y practica</b> para aplicar todo lo aprendido en el mercado. <br><br><i>Todo lo que necesitas aprender de las criptomonedas, los mercados financieros y las inversiones en un mismo lugar!.</i> 
+                    </p>
+                </div>
+                <div class="escuela_imagen">
+                    <img src="./image/escuela.png" alt="">
+                </div>
+            </div>
+            <div class="metodologia">
+                <div class="metodologia_descripcion">
+                    <h2>Metodología de estudio</h2>
+                    <p>
+                        <span>Contamos con una <b>comunidad de Discord</b> donde vas a poder estudiar e intercambiar visiones de inversion en un mismo lugar!.</span>
+                        <br><br> Las clases son en vivo y en <b>grupos reducidos</b> para facilitar el aprendizaje
+                        y la práctica.
+                    </p>
+                </div>
+                <div class="metodologia_imagen">
+                    <img src="./image/metodologia.png" alt="">
+                </div>
+            </div>
+            <div class="certificado">
+                <div class="certificado_descripcion">
+                    <h2>Certificado</h2>
+                    <p>
+                        Vas a recibir un <b>certificado NFT</b> único e intransferible dentro de la blockchain que <b>te abrirá</b>  las puertas al <b>mercado laboral</b> del ecosistema blockchain, que avalará los conocimientos adquiridos facilitando tu desarrollo profesional.
+                    </p>
+                </div>
+                <div class="certificado_imagen">
+                    <img src="./image/certificado.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container_cursos_disponibles" id="cursos">
+            <div class="cursos_titulo_general">
+                <h3>Cursos disponibles</h3>
+                <p>Aprende a invertir de manera inteligente con estos 3 cursos</p>
+            </div>
+            <div class="container_cursos">
+                <div class="curso">
+                    <h4 class="des1">Acceso a la comunidad</h4>
+                    <p class="descripcion des2">En este curso aprenderas todo sobre el analisis tecnico aplicado.
+                        Vas a saber como aplicar estrategias de trading.
+                    </p>
+                    <p class="costo">
+                        USD $30/<span>al mes</span>
+                    </p>
+                    <div class="container_btns">
+                        <a href="#" class="btn btn_1">Quiero inscribirme</a>
+                        <a href="#" class="btn btn_2">Plan de estudio</a>
+                    </div>
+                    <div class="container_plan">
+                        <h4>Comunidad de inversion</h4>
+                        <ul>
+                            <li>Acceso a la comunidad</li>
+                            <li>Noticias</li>
+                            <li>Ideas de inversión</li>
+                            <li class="tachado">Clases en vivo</li>
+                            <li class="tachado">Estrategia de inversión</li>
+                            <li class="tachado">Análisis Fundamental</li>
+                            <li class="tachado">Análisis técnico</li>
+                            <li class="tachado">Análisis Fundamental</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="curso">
+                    <h4 class="des1">Analisis técnico</h4>
+                    <p class="descripcion des2">En este curso aprenderas todo sobre el analisis tecnico aplicado.
+                        Vas a saber como aplicar estrategias de trading.
+                    </p>
+                    <p class="costo">
+                        USD $99/<span>al mes</span>
+                    </p>
+                    
+                    <div class="container_btns">
+                        <a href="#" class="btn btn_1">Quiero inscribirme</a>
+                        <a href="#" class="btn btn_2">Plan de estudio</a>
+                    </div>
+                    <div class="container_plan">
+                        <h4>Analisis técnico</h4>
+                        <ul>
+                            <li>Acceso a la comunidad</li>
+                            <li>Clases en vivo</li>
+                            <li>Ideas de inversion</li>
+                            <li>Noticias</li>
+                            <li>Practica Backtesting</li>
+                            <li>Análisis tecnico</li>
+                            <li>Estrategias de scalping</li>
+                            <li class="tachado">Análisis Fundamental</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="curso">
+                    <h4>Análisis fundamental</h4>
+                    <p class="descripcion">En este curso aprenderas todo sobre el fundamental de los mercados
+                        y las criptomonedas, las distintas estrategias de inversion y como
+                        invertir de manera inteligente.
+                    </p>
+                    <p class="costo">
+                        USD $150/<span>al mes</span>
+                    </p>
+                    <div class="container_btns">
+                        <a href="#" class="btn btn_1">Quiero inscribirme</a>
+                        <a href="#" class="btn btn_2">Plan de estudio</a>
+                    </div>
+                    <div class="container_plan">
+                        <h4>Análisis fundamental</h4>
+                        <ul>
+                            <li>Acceso a la comunidad</li>
+                            <li>Clases en vivo</li>
+                            <li>Ideas de inversion</li>
+                            <li>Noticias</li>
+                            <li>Análisis fundamental</li>
+                            <li>Estrategias de inversion</li>
+                            <li class="tachado">Practica Backtesting</li>
+                            <li class="tachado">Análisis tecnico</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testim" id="testim">
+                <p class="title_testimonio">Experiencias</p>
+                <div class="wrap">
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+                    <ul class="dots" id="testim-dots">
+                        <li class="dot active"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                    </ul>
+                    <div class="cont" id="testim-content">
+                        <div class="active">
+                            <div class="img"><img src="./image/perfil_1.jpg"></div>
+                            <h2>Joaquin Ferrá</h2>
+                            <p>Predecir los movimientos del precio me parecía una quimera, algún truco de prestidigitación propia de un brujo. Interpretar una gráfica y conocer lo que va a pasar a continuación me suponía una trampa, algún tipo de engaño sin más. Sin embargo, el curso y la tutoría de Nacho me ha llevado a descubrir que la magia es posible, sin trampa ni cartón. Yo estaba ciego y, tras el curso, ya puedo ver. Ahora soy yo el mago y puedo predecir los vaivenes del precio en una gráfica. Ahora he salido de la caverna platónica y he visto de verdad un mundo que desconocía.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./image/perfil_2.jpg"></div>
+                            <h2>Jessica Rodríguez</h2>
+                            <p>Empecé el curso sin saber nada, al principio me daba miedo invertir y perder plata. De a poco con los conocimientos y las practicas en vivo pude perder el miedo. Hoy soy rentable y puedo dominar mis emociones en el trading.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./image/perfil_3.jpg"></div>
+                            <h2>Nicolás Escudero</h2>
+                            <p>Me encanto el curso! Me inscribí porque me lo recomendó un amigo y terminé aprendiendo todo sobre el mundo de las criptomonedas, hasta tengo un avatar en el metaverso!
+                            Los cursos son completísimos y pude sacarme todas las dudas
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./image/perfil_4.jpg"></div>
+                            <h2>Martina hernandez</h2>
+                            <p>Entre por recomendación de un compañero de trabajo para aprender a hacer scalping, no solo aprendí eso sino que también sigo formando parte de la comunidad donde me informo todos los días de las noticias más importantes y los movimientos del mercado, la comunidad que se formó esta buenisima! </p>
+                        </div>
+                        
+                        <div>
+                            <div class="img"><img src="./image/perfil_5.jpg"></div>
+                            <h2>Andrea Sosa</h2>
+                            <p>Decidí introducirme al mundo de las criptomonedas y gracias a este curso, no sólo comencé a conocer este nuevo mundo, sino que además, aprendí todas las herramientas necesarias para empezar dicho camino apasionante de activo digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="noticias">
+            <div class="section1">
+                <h2>Noticias</h2>
+                <p>Sigue las noticias mas importantes de los mercados</p>
+            </div>
+            <div class="section2">
+                <div class="contenedorimg">
+                    <img src="./image/noticia.png" alt="imagen trading">
+                </div>
+                <article>
+                    <h3>Newsletter</h3>
+                    <p>
+                        Seguinos para poder estar al día de todas las novedades económicas y del ecosistema crypto! Vas a recibir noticias, análisis, actualizaciones e información educativa sobre el Smart Money!.
+                    </p>
+                    <a href="https://www.linkedin.com/company/smart-money-school/" target="_blank" class="btn_mas">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="container_preguntas" id="preguntas">
+            <h1>Preguntas Frecuentes</h1>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        ¿Necesito tener conocimientos previos?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            No, te acompañaremos en todo el proceso de aprendizaje para poder invertir en los mercados financieros sin conocimientos previos
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        ¿Cualquier persona puede invertir?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Todos pueden invertir sin importar el punto de inicio y crecer financieramente a partir de las herramientas y conocimientos adquiridos a lo largo del aprendizaje.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        ¿Se necesita un monto mínimo de dinero?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Todos pueden invertir sin importar el punto de inicio y crecer financieramente a partir de las herramientas y conocimientos adquiridos a lo largo del aprendizaje.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        ¿Se puede pagar con criptomonedas?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            Si, aceptamos este medio de pago por la red TR-20 y BEP-20.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        ¿Necesito tener una computadora?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                            No es indispensable pero es recomendable para tener una mejor experiencia durante las clases.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contacto">
+        <div class="header_footer">
+            <img src="./image/logo_principal_dorado.png" alt="">
+            <div>
+                <a href="https://www.instagram.com/smartmoneyschool_ok/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/message/NCZZK5TQCDPIB1" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://twitter.com/SmartMoney_Ok" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@smartmoneyschool" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://medium.com/@SmartMoney_AR" target="_blank" ><i class="fa-brands fa-medium"></i></a>
+            </div>
+        </div>
+        <div class="cuerpo_footer">
+            <div class="aux">
+                <p>Secciones</p>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Nosotros</li>
+                    <li>Aprende a Invertir</li>
+                    <li>Noticias</li>
+                    <li>Ayuda</li>
+                </ul>
+            </div>
+            <div class="aux2">
+                <p>Redes Sociales</p>
+                <ul>
+                    <li><a href="https://www.instagram.com/smartmoneyschool_ok/" target="_blank" class="eeesa">Instagram</a></li>
+                    <li><a href="https://wa.me/message/NCZZK5TQCDPIB1" target="_blank" class="eeesa">WhatsApp</a></li>
+                    <li><a href="https://twitter.com/SmartMoney_Ok" target="_blank" class="eeesa">Twitter</a></li>
+                    <li><a href="https://www.tiktok.com/@smartmoneyschool" target="_blank" class="eeesa">TikTok</a></li>
+                    <li><a href="https://medium.com/@SmartMoney_AR" target="_blank" class="eeesa">Medium</a></li>
+                </ul>
+            </div>
+            <div class="aux3">
+                <p>Contactenos</p>
+                <ul>
+                    <li><a href="mailto:info@smartmoneyschool.io" target="_blank" class="eeesa">Información</a></li>
+                    <li><a href="mailto:ayuda@smartmoneyschool.io" target="_blank" class="eeesa">Ayuda</a></li>
+                    <li><a href="mailto:redes@smartmoneyschool.io" target="_blank" class="eeesa">Redes</a></li>
+                    <li><a href="mailto:ignacio.olivieri@smartmoneyschool.io" target="_blank" class="eeesa">Ignacio Olivieri</a></li>
+                    <li><a href="mailto:marcela.alcaraz@smartmoneyschool.io" target="_blank" class="eeesa">Marcela Alcaraz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./Js/experiencias.js"></script>
+    <script src="./Js/ayuda.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

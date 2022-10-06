@@ -1,0 +1,118 @@
+.container_banner{
+    width: 90%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.container_banner .titulo_chip{
+    font-size: 16px;
+    /* border: red 1px solid; */
+    width: 176px;/*equivale al 45%*/
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 20px;
+    background: white;
+}
+.container_banner .titulo_chip p{
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    --text-fill-color: transparent;
+}
+
+.container_img_des{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container_banner_descripcion h1{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 96.3%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    /* border: 1px solid orange; */
+    width: 266px;/*----------*/
+}
+.container_banner_descripcion h1 span{
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    --text-fill-color: transparent;
+}
+
+.container_banner_descripcion>p{
+    font-size: 13px;
+    color: white;
+    width: 266px;/*----------*/
+}
+
+.container_banner_descripcion .container_botones{
+    margin-top: 17px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_botones form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_botones form .correo{
+    width: 294px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    padding: 8px 15px;
+    color: #333333;
+    line-height: 20px;
+    font-size: 18px;
+    border: none;
+}
+.container_botones form .correo:focus{
+    outline: none;
+}
+
+.container_botones form .btn_quiero{
+    margin-top: 10px;
+    width: 84px;
+    height: 40px;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) ;
+    color: white;
+}
+
+.container_banner_descripcion .container_botones .btn_quiero:hover{
+    background: white;
+    color: #AB761F;
+    border: 1px solid #AB761F;
+}
+
+
+.container_banner .container_imagen{
+    margin-top: 17px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container_banner .container_imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; 
+}

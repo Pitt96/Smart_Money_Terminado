@@ -1,0 +1,51 @@
+.container {
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    width: 100%;
+    color: white;
+    background-color: black; 
+}
+.container .section1 {
+    text-align: left;
+    padding-left: 10px; 
+}
+.container .section1 h2 {
+    font-size: 24px;
+    margin-bottom: 5px; 
+}
+.container .section1 p {
+    font-size: 12px;
+    padding-bottom: 20px; 
+}
+.container .section2 .contenedorimg {
+    width: 280px;
+    margin: auto;
+    border-radius: 20px; 
+}
+.container .section2 .contenedorimg img {
+    width: 100%; 
+    border-radius: 20px; 
+}
+.container .section2 article {
+    display: flex;
+    flex-direction: column;
+}
+.container .section2 article h3 {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+.container .section2 article p {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+.container .section2 article .btn_mas {
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border: 1px solid #AB761F;
+    font-size: 18px;
+    border-radius: 20px;
+}

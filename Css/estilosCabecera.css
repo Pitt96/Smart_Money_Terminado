@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*es para que el scroll sea suave-lento*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background: #000000 ;
+    color: #fff;
+    
+}
+
+/*Navegacion*/
+header{
+    width: 100%;
+    height: 84px;
+    background: #000000;
+    box-shadow: 0px 0.5px 8px #F9A000;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 79px;
+    height: 52px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.bar_btn{
+    font-size: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bar_btn .fa-solid{
+    font-weight: bold;
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    --text-fill-color: transparent;
+}
+.nav_menu{
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    top: 85px;
+    left:-1000px;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    box-shadow: 4px 4px 4px rgba(218, 157, 45, 0.5);
+    border-radius: 0px 0px 16px 0px;
+    transition: all .5s ;
+}
+
+.nav_menu li{
+    list-style: none;
+    display: none;
+    line-height: 30px;
+    margin: 0px 10px 0px 20px;
+    padding-top: 15px;
+    transition: all .5s ;
+    /* background: rgba(0, 0, 0, .95);  */
+}
+
+.nav_menu .bord{
+    border-top: 1px solid #C9902C;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .5s ;
+}
+
+.nav_menu li a:hover, .nav_menu li a.active{
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    --text-fill-color: transparent;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav_menu{
+    top: 80px;
+    left: 0;
+    height: 300px;
+    background: rgba(0, 0, 0, .95);
+    z-index: 9999;
+}
+
+#check:checked ~ .nav_menu li{
+    display: block;
+}
+/*es para el nav no lo tape*/
+section[id],footer[id]{
+    scroll-margin-top: 90px;
+}

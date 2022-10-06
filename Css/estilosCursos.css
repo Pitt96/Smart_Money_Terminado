@@ -1,0 +1,404 @@
+/*-----------------------------------cursos-----------------------------------*/
+.container_cursos_disponibles{
+    margin-top: 30px;
+    width: 100%;
+    background: linear-gradient(180deg, #606060 0%, #121212 100%);
+    /* background-blend-mode: color;
+    transform: rotate(-180deg);  #121212 100% poner otro div para aplicar el fondo*/
+    padding-top: 30px;
+    border-top-left-radius: 15% 5%;
+    border-top-right-radius: 15% 5%;
+}
+
+.container_cursos_disponibles .cursos_titulo_general{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+}
+
+.cursos_titulo_general h3,.cursos_titulo_general p{
+    text-align: center;
+    color: white;
+}
+.cursos_titulo_general h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.container_cursos_disponibles .container_cursos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .container_cursos .curso{
+    width:95%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #AB761F;
+    margin-bottom: 50px;
+    border-radius: 20px;
+} */
+
+.container_cursos .curso{
+    width: 310px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #AB761F;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows:auto;
+    grid-template-areas: 
+    "titulo titulo"
+    "descripcion botones"
+    "costo costo"
+    "planes planes";
+}
+
+.curso h4{
+    grid-area: titulo;
+    margin-top: 19px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.curso .descripcion{
+    grid-area: descripcion;
+    padding: 0 10px;
+    font-size: 13px;
+    
+}
+.curso .costo{
+    grid-area: costo;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.curso .costo span{
+    font-size: 14px;
+}
+.curso .container_btns{
+    grid-area: botones;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-right: 10px;
+}
+.curso .container_plan{
+    grid-area: planes;
+}
+.curso .container_btns .btn{
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+/* .container_cursos .curso .curso_descripcion{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid red;
+}
+
+
+.container_cursos .curso .curso_descripcion h4,.container_cursos .curso .curso_descripcion p:nth-child(2){
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.container_cursos .curso .curso_descripcion h4,.container_cursos .curso .curso_descripcion p:nth-child(3){
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.container_cursos .curso .curso_descripcion span{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.container_cursos .curso .container_btns{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 25px;
+} */
+/* .curso .container_btns .btn{
+    width: 48%;
+    height: 40px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+} */
+.curso .container_btns .btn_1{
+    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 100px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.curso .container_btns .btn_1:hover{
+    background: white;
+    color: #AB761F;
+    border: 1px solid #AB761F;
+}
+
+.curso .container_btns .btn_2{
+    border: 1px solid #AB761F;
+    font-size: 12px;
+}
+
+.container_cursos .curso .container_plan{
+    width: 99%;
+    height:auto;
+    color: #121212;
+    background: white;
+    margin: 0 auto;
+    
+    border-radius: 16px;
+    padding-top: 2px;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.container_cursos .curso .container_plan h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container_cursos .curso .container_plan ul{
+    
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    columns: 2;
+}
+
+.container_cursos .curso .container_plan ul li{
+    width: 80%;
+    margin-left: 18px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.tachado{
+    text-decoration: line-through;
+}
+/*==========================EXPERIENCIAS==========================*/
+.testim{
+    width: 100%;
+}
+.testim .title_testimonio{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.testim .wrap{
+    position: relative;
+    width: 100%;
+    max-width: 1020px;
+    padding: 40px 20px;
+    margin: auto;
+}
+.testim .arrow{
+    display: block;
+    position: absolute;
+    color: #eee;
+    cursor: pointer;
+    font-size: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+    padding: 5px;
+    z-index: 22222222;
+}
+.testim .arrow:before{
+    cursor: pointer;
+}
+.testim .arrow.left{
+    left: 10px;
+}
+.testim .arrow.right{
+    right: 10px;
+}
+.testim .arrow:hover{
+    color: #ea830e;
+}
+.testim .dots{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    left: 0;
+    display: block;
+    z-index: 3333;
+    height: 12px;
+}
+.testim .dots .dot{
+    list-style-type: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    position: relative;
+}
+.testim .dots .dot.active,
+.testim .dots .dot:hover{
+background: #ea830e;
+border-color: #ea830e;
+}
+
+.testim .dots .dot.active{
+    animation: testim-scale .5s ease-in-out forwards;
+}
+.testim .cont{
+    position: relative;
+    overflow: hidden;
+}
+.testim .cont > div{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 0 70px 0;
+    opacity: 0;
+}
+.testim .cont > div.inactive{
+    opacity: 1;
+}
+.testim .cont > div.active{
+    
+    position: relative;
+    opacity: 1;
+    
+}
+.testim .cont div .img img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.testim .cont div h2{
+    color: #ea830e;
+    font-size: 1em;
+    margin: 15px 0;
+}
+.testim .cont div p{
+    font-size: 1.15em;
+    color: #eee;
+    width: 80%;
+    margin: auto;
+}
+
+.testim .cont div.active .img img{
+    animation: testim-show .5s ease-in-out forwards;
+}
+.testim .cont div.active h2{
+    animation: testim-content-in .4s ease-in-out forwards;
+}
+.testim .cont div.active p {
+    animation: testim-content-in .5s ease-in-out forwards;
+}
+.testim .cont div.inactive .img img{
+    animation: testim-hide .5s ease-in-out forwards;
+}
+.testim .cont div.inactive h2{
+    animation: testim-content-out .4s ease-in-out forwards;
+}
+.testim .cont div.inactive p {
+    animation: testim-content-out .5s ease-in-out forwards;
+}
+
+@keyframes testim-scale {
+    0% {
+        box-shadow: 0px 0px 0px 0px #eee;
+    }
+    35% {
+        box-shadow: 0px 0px 10px 5px #eee;
+    }
+    70% {
+        box-shadow: 0px 0px 10px 5px #ea830e;
+    }
+    100% {
+        box-shadow: 0px 0px 0px 0px #ea830e;
+    }
+}
+
+@keyframes testim-content-in {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes testim-content-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+@keyframes testim-show {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes testim-hide {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}

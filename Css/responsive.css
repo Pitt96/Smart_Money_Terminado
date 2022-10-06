@@ -1,0 +1,445 @@
+@media all and (min-width: 480px){
+    /*Banner*/
+    .container_botones form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer .header_footer  img{
+        margin-left: 30px;
+    }
+    
+    /*cursos*/
+    .container_cursos .curso{
+        width: 90%;
+    }
+    .container_botones form .btn_quiero{
+        margin:0;
+    }
+    .container_cursos .curso{
+        width: 400px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .curso h4{
+        font-size: 24px;
+        padding: 0px;
+        margin: 0 0 10px 0;
+    }
+    .curso .descripcion{
+        grid-area: descripcion;
+        padding: 0px;
+        font-size: 14px;
+        
+    }
+    .curso .container_btns{
+        margin: 0px;
+    }
+    .curso .container_btns .btn{
+        width: 165px;
+        height: 40px;
+
+    }
+    
+    .container_cursos .curso .container_plan ul li{
+        margin-left: 35px;
+    }
+    
+
+    /*noticias*/
+    .container .section2 .contenedorimg {
+        width: 400px;
+    }
+    
+}
+@media all and (max-width: 500px) {
+    .testim .arrow{
+        font-size: 1.5rem;
+    }
+    .testim .cont div p{
+        line-height: 25px;
+    }
+}
+
+@media all and (min-width: 600px){
+    .container_banner_descripcion h1{
+        font-size: 28px;
+        width: 350px;/*----------*/
+        /* border: 1px solid orange; */
+    }
+    .container_botones form .correo{
+        width: 300px;
+        height: 50px;
+    }
+    .container_botones form .btn_quiero{
+        width: 187px;
+        height: 50px;
+    }
+    .container_nosotros{
+        width: 80%;
+    }
+    .container_cursos .curso{
+        padding: 15px;
+    }
+    
+    .container {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container .section2 .contenedorimg {
+        width: 90%;
+    }
+    .container_preguntas{
+        width: 90%;
+        /* border: 1px solid red;  */
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+}
+@media all and (min-width: 768px){
+    .container_banner .titulo_chip{
+        font-size: 16px;
+        /* border: red 1px solid; */
+        width: 208px;/*equivale al 45%*/
+    }
+    .container_banner_descripcion h1{
+        font-size: 35px;
+        /* border: 1px solid orange; */
+        width: 450px;/*----------*/
+    }
+    .container_banner_descripcion>p{
+        font-size: 24px;
+        width: 600px;/*----------*/
+    }
+    .container_botones form .correo{
+        width: 391px;
+    }
+    .container_cursos .curso{
+        width:70%;
+        grid-template-columns: 65% 35%;
+    }
+    .curso h4{
+        font-size: 25px;
+    }
+    .curso .descripcion{
+        font-size: 20px;
+    }
+    .curso .costo{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .curso .costo span{
+        font-size: 20px;
+    }
+    .container_cursos .curso .container_plan h4{
+        font-size: 30px;
+    }
+    .container_cursos .curso .container_plan ul li{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .curso .container_btns .btn{
+        font-size: 18px;
+        width: 160px;
+        height: 50px;
+    }
+    .cursos_titulo_general h3{
+        font-size: 30px;
+    }
+    .container .section1 h2 {
+        font-size: 30px;
+    }
+    .container .section1 p {
+        font-size: 16px;
+    }
+    .container .section2 article h3 {
+        font-size: 25px;
+    }
+    .container .section2 article .btn_mas {
+        width: 120px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (min-width: 800px){
+    
+}
+@media all and (min-width: 1024px){
+    .logo{
+        margin-left: 50px;
+        width: 100px;
+        height: 70px;
+    }
+    nav{
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bar_btn{
+        display: none;
+    }
+    .nav_menu{
+        width: auto;
+        position: relative;
+        height: 80px;
+        left:0;
+        top: 0;
+        /* background: none; */
+        /* transition: none; */
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 30px;
+        box-shadow: none;
+    }
+    .nav_menu .bord{
+        border: none;
+    }
+    .nav_menu li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .nav_menu li a{
+        color: white;
+        font-size: 16px;
+    }
+
+    .container_banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_banner{
+        width: 100%;
+    }
+    .container_banner .titulo_chip{
+        margin-bottom: -30px;
+        margin-top: 30px;
+    }
+    .container_img_des{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_banner .container_imagen{
+        width: 496px;
+    }
+    .container_nosotros{
+        width:90%;
+    }
+    .container_nosotros .nosotros,.container_nosotros .escuela,.container_nosotros .metodologia,.container_nosotros .certificado{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .container_nosotros .nosotros,.container_nosotros .metodologia{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .nosotros .nosotros_descripcion, .escuela .escuela_descripcion, .metodologia .metodologia_descripcion, .certificado .certificado_descripcion{
+        width: 491px;
+        height: 243px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: baseline;
+    }
+    .nosotros .nosotros_imagen, .escuela .escuela_imagen, .metodologia .metodologia_imagen, .certificado .certificado_imagen{
+        width: 389px;
+        height: 243px;
+    }
+    .container_cursos .curso{
+        width:40%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "titulo"
+        "descripcion"
+        "costo"
+        "botones"
+        "planes";
+    }
+    .curso h4{
+        text-align: center;
+    }
+    .curso .descripcion{
+        text-align: center;
+    }
+    .curso .container_btns{
+        grid-area: botones;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .curso .container_btns .btn_1{
+        margin:0px;
+    }
+
+    .container_cursos .curso .container_plan ul{
+        columns: 1;
+    }
+    .container_cursos .curso .container_plan ul li{
+        margin-left: 80px;
+    }
+
+    .container .section2{
+        display: flex;
+        justify-content: center;
+    }
+    .container .section2 article{
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .container .section2 .contenedorimg {
+        width: 500px;
+        height: 411px;
+    }
+    .footer .cuerpo_footer div ul li{
+        font-size: 16px;
+        width: 200px;
+    }
+}
+@media all and (min-width: 1280px){
+    
+    .container_img_des{
+        /* border: 1px solid orange; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .container_banner{
+        width: 90%;
+        margin-bottom: 115px;
+    }
+    .container_banner .titulo_chip{
+        margin-top: 102px;
+    }
+    .container_banner_descripcion h1{
+        font-size: 45px;
+        width: 593px;
+    }
+    .container_banner .container_imagen{
+        margin-left: 20px;
+    }
+    .container_nosotros{
+        padding-top: 31px;
+    }
+    .container_nosotros .nosotros,.container_nosotros .escuela,.container_nosotros .metodologia,.container_nosotros .certificado{
+        padding: 70px 0;
+    }
+    .nosotros .nosotros_descripcion h2 , .escuela .escuela_descripcion h2, .metodologia .metodologia_descripcion h2, .certificado .certificado_descripcion h2{
+        font-size: 30px;
+    }
+    .nosotros .nosotros_descripcion p, .escuela .escuela_descripcion p, .metodologia .metodologia_descripcion p, .certificado .certificado_descripcion p{
+        font-size: 20px;
+        
+    }
+    
+    
+    .container_cursos .curso{
+        width:380px;
+        height: 718px;
+    }
+    .curso h4{
+        height: 36px;
+    }
+    .curso .des1{
+        height: 20px;
+        margin-bottom: 25px;
+    }
+    .curso .des2{
+        margin-bottom: 60px;
+    }
+    .container_cursos .curso .container_plan ul li{
+        width: 200px;
+    }
+    .container_cursos_disponibles{
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+    .container_cursos_disponibles .cursos_titulo_general{
+        margin-bottom: 70px;
+    }
+    .cursos_titulo_general h3{
+        font-size: 35px;
+    }
+    .cursos_titulo_general p{
+        font-size: 24px;
+    }
+    .testim{
+        margin-top:70px;
+    }
+    .testim .cont div .img img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .container .section1 h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .container .section1 p {
+        font-size: 24px;
+    }
+    .container .section2 article h3 {
+        font-size: 30px;
+    }
+    .container .section2 article p {
+        font-size: 20px;
+    }
+    .container_preguntas h1{
+        font-size: 35px;
+    }
+    .footer .header_footer  img{
+        width: 79px;
+    }
+    .accordion-item-header {
+        font-size: 20px;
+    }
+}
+@media all and (min-width: 1440px){
+    .logo{
+        margin-left: 200px;
+    }
+    .nav_menu{
+        margin-right: 200px;
+    }
+    .container_img_des{
+        width: 1205px;
+        margin: 0 auto;
+    }
+    .container_banner{
+        width: 1205px;
+    }
+    .container_nosotros{
+        width: 1205px;
+    }
+    .container {
+        width: 1205px; 
+        /* border: 1px solid red; */
+    }
+    .container_preguntas{
+        width: 1205px; 
+        /* border: 1px solid red; */
+    }
+    .container_cursos_disponibles .container_cursos{
+        width: 1205px;
+    }
+    .footer .header_footer{
+        width: 1400px;
+        
+    }
+}
