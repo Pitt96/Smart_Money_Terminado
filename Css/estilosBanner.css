@@ -5,22 +5,7 @@
     padding-top: 25px;
 }
 
-.container_banner .titulo_chip{
-    font-size: 16px;
-    /* border: red 1px solid; */
-    width: 176px;/*equivale al 45%*/
-    text-align: center;
-    padding: 2px 4px;
-    border-radius: 20px;
-    background: white;
-}
-.container_banner .titulo_chip p{
-    background: radial-gradient(100% 2161.43% at 0% 0%, #C9902C 0%, #A5711E 7.08%, #B6852E 41.74%, #F3CB68 67.82%, #F1C967 69.87%, #DA9D2D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    --text-fill-color: transparent;
-}
+
 
 .container_img_des{
     width: 100%;

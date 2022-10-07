@@ -27,11 +27,13 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 //Boton "quiero" para recibir informacion por whatsapp
 function goWasaap(){
   
-  let email = document.getElementById('email_cliente').value;
+  let nombre = document.getElementById('nombre_cliente').value;
   let url = "https://api.whatsapp.com/send?phone=5493548436047&text=Hola SMART MONEY SCHOOL%0a, estoy interesado en los cursos.%0a"+
-  " Mi email es: "+email+"%0a Espero su respuesta. Gracias";
-  if(email != ""){
+  " Mi nombre es: "+nombre+"%0a Espero su respuesta. Gracias";
+  if(nombre != ""){
     window.open(url, '_blank');
+    //limpiar casilla
+    document.getElementById('nombre_cliente').value = "";
   }else{
     alerta();
   }
@@ -41,7 +43,7 @@ function goWasaap(){
 function alerta(){
   Swal.fire({
     icon: 'warning',
-    text: 'Debe llenar el campo de email para poder contactarse con nosotros',
+    text: 'Debe ingresar su nombre para poder contactarse con nosotros',
     setTimeout: 5000,
   })
 }

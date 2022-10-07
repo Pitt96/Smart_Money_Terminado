@@ -100,11 +100,7 @@
     }
 }
 @media all and (min-width: 768px){
-    .container_banner .titulo_chip{
-        font-size: 16px;
-        /* border: red 1px solid; */
-        width: 208px;/*equivale al 45%*/
-    }
+    
     .container_banner_descripcion h1{
         font-size: 35px;
         /* border: 1px solid orange; */
@@ -166,9 +162,7 @@
         align-items: center;
     }
 }
-@media all and (min-width: 800px){
-    
-}
+
 @media all and (min-width: 1024px){
     .logo{
         margin-left: 50px;
@@ -218,10 +212,7 @@
     .container_banner{
         width: 100%;
     }
-    .container_banner .titulo_chip{
-        margin-bottom: -30px;
-        margin-top: 30px;
-    }
+    
     .container_img_des{
         width: 100%;
         display: flex;
